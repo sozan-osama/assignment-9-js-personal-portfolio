@@ -1,0 +1,622 @@
+/***** global style *****/ 
+
+:root {
+  --primary-purple:#7F22FE;
+  --text-dark: #1e293b;
+  --text-muted: #8e9aaf;
+  --icon-color: #64748b;
+  --icon-hover-bg: #f1f5f9;
+}
+
+body {
+  background-color: #F5F9FC;
+  min-height: 100vh; 
+}
+
+ /***** End global style *****/
+
+/***** nav style *****/ 
+
+.logo-icon {
+  width: 48px;
+  height: 48px;
+  background-color: var(--primary-purple);
+  border-radius: 12px;
+  font-size: 1.4rem;
+  box-shadow: 0 4px 12px rgba(108, 56, 255, 0.3);
+}
+
+.brand-title {
+  font-weight: 700;
+  font-size: 1.35rem;
+  color: var(--text-dark);
+  line-height: 1.1;
+  letter-spacing: -0.3px;
+}
+
+.brand-highlight {
+  color: var(--primary-purple);
+}
+
+.brand-subtitle {
+  font-size: 0.78rem;
+  color: var(--text-muted);
+  font-weight: 500;
+}
+
+.btn-add-contact {
+  background-color: var(--primary-purple);
+  color: #ffffff;
+  font-weight: 600;
+  font-size: 0.92rem;
+  padding: 0.55rem 1.25rem;
+  border-radius: 12px;
+  border: none;
+  transition: all 0.2s ease-in-out;
+}
+
+.btn-add-contact:hover,
+.btn-add-contact:focus {
+  background-color: var(--primary-purple);
+  color: #ffffff;
+  box-shadow: 0 4px 12px rgba(108, 56, 255, 0.25);
+  transform: translateY( -5%);
+}
+
+.icon-btn {
+  color: var(--icon-color);
+  font-size: 1.15rem;
+  width: 40px;
+  height: 40px;
+  border-radius: 10px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border: none;
+  background: transparent;
+  transition: all 0.2s ease;
+}
+
+.icon-btn:hover {
+  background-color: var(--icon-hover-bg);
+  color: var(--text-dark);
+}
+
+.profile-avatar {
+  width: 42px;
+  height: 42px;
+  border-radius: 12px;
+  overflow: hidden;
+  cursor: pointer;
+}
+
+.profile-avatar img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+ /***** End nav style *****/
+
+
+/***** main style *****/ 
+
+
+.stat-card {
+  background-color: #ffffff;
+  border-radius: 16px;
+  border: 1px solid #f1f5f9;
+  box-shadow: 0 2px 6px rgba(0, 0, 0, 0.02);
+}
+
+.stat-icon {
+  width: 44px;
+  height: 44px;
+  border-radius: 12px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 1.1rem;
+}
+.stat-card:hover{
+  box-shadow: 3px 3px #EAECEE;
+}
+.bg-emr{
+    background:linear-gradient(#FB184C, #EA001C );
+  box-shadow: 0 3px 5px #FFD0DB;
+}
+.bg-fav{
+    background:linear-gradient( #FFAE00,#FF7900 );
+  box-shadow: 0 3px 5px #FFE5BF;
+}
+.shadow-bg{
+    box-shadow: 0 3px 5px #F1F6FF;
+}
+
+.bg-blue {
+  background-color: #2563eb;
+}
+
+.bg-orange {
+  background-color: #f59e0b;
+}
+
+.bg-pink {
+  background-color: #f43f5e;
+}
+
+.stat-label {
+  font-size: 0.7rem;
+  font-weight: 700;
+  color: #94a3b8;
+  letter-spacing: 0.5px;
+}
+
+.stat-value {
+  font-size: 1.35rem;
+  font-weight: 700;
+  color: #0f172a;
+  line-height: 1.1;
+}
+
+.section-title {
+  font-size: 1.5rem;
+  font-weight: 700;
+  color: #0f172a;
+}
+
+.section-subtitle {
+  font-size: 0.875rem;
+  color: #64748b;
+}
+
+.search-box .search-icon {
+  position: absolute;
+  left: 16px;
+  top: 50%;
+  transform: translateY(-50%);
+  color: #94a3b8;
+  font-size: 0.95rem;
+}
+
+.search-input {
+  padding-left: 42px;
+  height: 48px;
+  border-radius: 12px;
+  border: 1px solid #e2e8f0;
+  background-color: #ffffff;
+  font-size: 0.9rem;
+  box-shadow: 0 1px 2px rgba(0, 0, 0, 0.01);
+}
+
+.search-input:focus {
+  border-color: #6c38ff;
+  box-shadow: 0 0 0 3px rgba(108, 56, 255, 0.15);
+}
+
+/* empty contact */
+.empty-icon {
+  width: 84px;
+  height: 84px;
+  background-color:#F3F4F6;
+  color:#D1D5DC;
+  border-radius: 16px;
+  font-size: 1.9rem;
+}
+
+.empty-title {
+  font-size: 1rem;
+  font-weight: 600;
+  color: #475569;
+} */
+
+.empty-subtitle {
+  font-size: 0.85rem;
+} 
+
+
+
+/* when we add contact   */
+.contact-card {
+  background-color: #ffffff;
+  border-radius: 20px !important;
+}
+
+.avatar-box {
+  width: 65px;
+  height: 65px;
+  background: linear-gradient(135deg, #ff0055, #e6005c);
+  border-radius: 18px !important;
+}
+
+.contact-name {
+  color: #1c1f23;
+  font-size: 1.15rem;
+}
+
+.contact-text {
+  font-size: 0.9rem;
+  color: #555b6e !important;
+}
+
+
+/* Icon Badges*/
+.icon-badge {
+  width: 28px;
+  height: 28px;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 0.8rem;
+}
+
+.badge-phone {
+  background-color: #e8f0fe;
+  color: #3b82f6;
+}
+
+.badge-purple {
+  background-color: #f0ebff;
+  color: #7c3aed;
+}
+
+.badge-green {
+  background-color: #e6f4ea;
+  color: #10b981;
+}
+
+
+
+/* Tag Badge (Friends) */
+.tag-badge {
+  background-color: #d1fae5;
+  color: #047857;
+  font-size: 0.825rem;
+}
+
+/* Bottom Action Buttons */
+.action-btn {
+  width: 36px;
+  height: 36px;
+  padding: 0;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  border: none;
+}
+
+.btn-green {
+  background-color: #e6f4ea;
+  color: #059669;
+}
+
+.btn-green:hover {
+  background-color: #d1fae5;
+  color: #047857;
+}
+
+.btn-purple {
+  background-color: #f0ebff;
+  color: #7c3aed;
+}
+
+.btn-purple:hover {
+  background-color: #e1d5fe;
+  color: #6d28d9;
+}
+
+/* Action Icons */
+.action-icons i {
+  color: #9ca3af;
+  transition: color 0.2s ease;
+  cursor: pointer;
+  font-size: 1.05rem;
+}
+
+.action-icons i:hover {
+  color: #4b5563;
+}
+/* -------  Right sidebar  -------- */
+
+.mini-contact-item {
+  background-color: #f8fafc;
+  transition: background-color 0.2s ease;
+}
+
+.mini-emergency-item:hover {
+  background-color:#FFF1F2;
+}
+
+.btn-mini-call-pink {
+  background-color: #ffe4e6;
+  color: #e11d48;
+}
+
+ .mini-emergency-item:hover .btn-mini-call-pink {
+  background-color: #f43f5e;
+  color: #ffffff;
+}
+
+.mini-avatar {
+  width: 40px;
+  height: 40px;
+  object-fit: cover;
+}
+
+.btn-mini-call {
+  width: 32px;
+  height: 32px;
+  padding: 0;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 8px;
+  border: none;
+  font-size: 13px;
+}
+
+.btn-mini-call-green {
+  background-color: #d1fae5;
+  color: #059669;
+}
+
+.mini-favorite-item:hover .btn-mini-call-green {
+  background-color: #10b981;
+  color: #ffffff;
+}
+.mini-favorite-item:hover{
+background-color: #FFFBEB;
+}
+
+/* ============= */
+
+.side-card {
+  background-color: #ffffff;
+  border-radius: 16px;
+  border: 1px solid #f1f5f9;
+  overflow: hidden;
+  box-shadow: 0 2px 6px rgba(0, 0, 0, 0.02);
+}
+
+.side-card-header {
+  border-bottom: 1px solid rgba(0, 0, 0, 0.03);
+}
+
+.bg-orange-light {
+  background-color: #fffbeb;
+}
+
+.bg-pink-light {
+  background-color: #fff1f2;
+}
+
+.side-icon {
+  width: 38px;
+  height: 38px;
+  border-radius: 10px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 0.95rem;
+}
+
+.side-title {
+  font-size: 0.95rem;
+  font-weight: 700;
+  color: #0f172a;
+}
+
+.side-subtitle {
+  font-size: 0.75rem;
+  color: #64748b;
+}
+
+.side-card-body {
+  min-height: 100px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+
+/* Card Container */
+.contact-card {
+  background-color: #ffffff;
+  border-radius: 20px !important;
+}
+
+.avatar-pink {
+  width: 54px;
+  height: 54px;
+  background: linear-gradient(135deg, #ff006e, #e6005c);
+  border-radius: 16px !important;
+}
+
+/* Phone Wrapper Box */
+.phone-box {
+  background-color: #eef2ff;
+}
+.icon-phone-blue {
+  color: #3b82f6;
+}
+
+/* Badges Icons Backgrounds */
+.icon-badge {
+  width: 28px;
+  height: 28px;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 12px;
+}
+.badge-purple {
+  background-color: #f3e8ff;
+  color: #9333ea;
+}
+.badge-green {
+  background-color: #d1fae5;
+  color: #059669;
+}
+
+/* Friends Tag Badge */
+.tag-friends {
+  background-color: #d1fae5;
+  color: #059669;
+}
+
+.card-footer-actions {
+  background-color: #f8fafc;
+  border-top: 1px solid #f1f5f9;
+}
+
+/* Left Action Buttons */
+.btn-action-box {
+  width: 38px;
+  height: 38px;
+  border-radius: 12px;
+  border: none;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  transition: all 0.2s ease;
+}
+.btn-call {
+  background-color: #d1fae5;
+  color: #059669;
+}
+.btn-call:hover {
+  background-color: #10b981;
+  color: #ffffff;
+}
+.btn-email {
+  background-color: #f3e8ff;
+  color: #9333ea;
+}
+.btn-email:hover {
+  background-color: #a855f7;
+  color: #ffffff;
+}
+
+.btn-action-icon {
+  background: transparent;
+  border: none;
+  color: #64748b;
+  width: 34px;
+  height: 34px;
+  border-radius: 8px;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  transition: all 0.2s ease;
+}
+
+.btn-star:hover {
+  color: #f59e0b;
+}
+.btn-heart:hover {
+  color: #e11d48;
+}
+.btn-edit:hover {
+  color: #2563eb;
+}
+.btn-delete:hover {
+  color: #dc2626;
+}
+
+/* Font Size Utility */
+.fs-7 {
+  font-size: 0.85rem;
+}
+
+/***** End main style *****/
+
+
+
+/* Avatar Placeholder in Modal */
+.avatar-circle-placeholder {
+  width: 80px;
+  height: 80px;
+  border-radius: 50%;
+  background-color: #2563eb;
+}
+
+/* Custom Inputs Styling */
+.modal-input {
+  background-color: #f8fafc;
+  border: 1px solid #e2e8f0;
+  border-radius: 12px;
+  padding: 0.65rem 1rem;
+  font-size: 0.9rem;
+}
+
+.modal-input:focus {
+  background-color: #ffffff;
+  border-color: #6366f1;
+  box-shadow: 0 0 0 3px rgba(99, 102, 241, 0.1);
+}
+
+/* Save Button Styling */
+.btn-primary-save {
+  background-color: #6366f1;
+  border: none;
+  transition: background-color 0.2s ease;
+}
+
+.btn-primary-save:hover {
+  background-color: #4f46e5;
+}
+
+/* Custom Checkbox */
+.custom-checkbox {
+  width: 18px;
+  height: 18px;
+  border-radius: 4px;
+}
+
+
+
+/* El Responsive in bootstrap be el Desktop App */
+
+@media (min-width: 992px) {
+  html, body {
+    height: 100vh;
+    overflow: hidden;
+  }
+
+  body {
+    display: flex;
+    flex-direction: column;
+  }
+
+  main.container {
+    flex: 1;
+    overflow: hidden;
+    max-width: 100% !important;
+    padding-left: 2rem !important;
+    padding-right: 2rem !important;
+  }
+
+  .desktop-main-scroll {
+    height: calc(100vh - 160px);
+    overflow-y: auto;
+    padding-right: 10px;
+  }
+
+  .desktop-sidebar-scroll {
+    height: calc(100vh - 140px);
+    overflow-y: auto;
+  }
+}
+
+::-webkit-scrollbar {
+  width: 6px;
+}
+::-webkit-scrollbar-track {
+  background: transparent;
+}
+::-webkit-scrollbar-thumb {
+  background: #cbd5e1;
+  border-radius: 10px;
+}
+::-webkit-scrollbar-thumb:hover {
+  background: #94a3b8;
+}
